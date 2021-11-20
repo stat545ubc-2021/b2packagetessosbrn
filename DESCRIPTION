@@ -5,8 +5,6 @@ Authors@R:
     person(given = "Tess",
            family = "Osborne",
            role = c("aut", "cre"),
-           email = "tess.osborne@hotmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Contains mean_sd() which creates new columns in your dataset that contains the mean and sd values for a specified group, retains the rest of the dataset as-is.
 License: MIT + file LICENSE
 Encoding: UTF-8

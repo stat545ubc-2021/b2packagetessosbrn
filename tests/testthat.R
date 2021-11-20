@@ -1,4 +1,4 @@
 library(testthat)
-library(b2package)
+library(b2packagetessosbrn)
 
-test_check("b2package")
+test_check("b2packagetessosbrn")
