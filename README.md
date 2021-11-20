@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# b2package
+# b2packagetessosbrn
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -17,7 +17,7 @@ repository using the following R command:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2021/functions_tessosbrn", ref = "0.1.0")
+devtools::install_github("stat545ubc-2021/b2packagetessosbrn", ref = "0.1.0")
 ```
 
 <!-- And the development version from [GitHub](https://github.com/) with:
