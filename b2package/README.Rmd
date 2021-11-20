@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# b2package
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of b2package is to house mean_sd() that creates new columns in your dataset that contains the mean and sd values for a specified group, retains the rest of the dataset as-is.
+
+## Installation
+
+b2package is not yet on CRAN. But, you can download it from this repository using the following R command: 
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2021/functions_tessosbrn", ref = "0.1.0")
+```
+
+<!-- And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2021/functions-tessosbrn")
+```
+--> 
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(b2package)
+mean_sd(palmerpenguins::penguins, island, body_mass_g)
+```
+
+This package is useful because it allows those cleaning their datasets to have simple functions that provide useful columns without dealing with tidyverse steps
+
