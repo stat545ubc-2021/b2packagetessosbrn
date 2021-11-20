@@ -6,31 +6,30 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of b2package is to house mean\_sd() that creates new columns in
-your dataset that contains the mean and sd values for a specified group,
-retains the rest of the dataset as-is.
+Welcome to my first package - a very basic package that served as some
+great practice for a class assignment, and will likely be useful in the
+future as a package template.
+
+The goal of b2packagetessosbrn is to house the `mean_sd()` function that
+creates new columns in your dataset that contain the mean and sd values
+for a group of interest, all while retaining the rest of the dataset
+as-is.
 
 ## Installation
 
-b2package is not yet on CRAN. But, you can download it from this
-repository using the following R command:
+b2packagetessosbrn is not yet on CRAN. But, you can download it from
+this repository using the following R command:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2021/b2packagetessosbrn", ref = "0.1.0")
+devtools::install_github("stat545ubc-2021/b2packagetessosbrn")
 ```
 
-<!-- And the development version from [GitHub](https://github.com/) with:
+## Example Use
 
-``` r
-# install.packages("devtools")
-devtools::install_github("stat545ubc-2021/functions-tessosbrn")
-```
--->
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+This is a basic example that shows you how to obtain the mean and sd
+values for body mass of all the penguins on a certain island from the
+palmerpenguins package:
 
 ``` r
 library(b2package)
@@ -53,6 +52,7 @@ mean_sd(palmerpenguins::penguins, island, body_mass_g)
 #> #   mean_value <dbl>, sd_value <dbl>
 ```
 
-This package is useful because it allows those cleaning their datasets
-to have simple functions that provide useful columns without dealing
-with tidyverse steps
+b2packagetessosbrn is useful because it allows those cleaning their
+datasets to have simple functions that provide useful columns without
+dealing with intermediate steps - hopefully will be expanded in the near
+future to include many more cleaning steps!
